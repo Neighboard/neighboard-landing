@@ -1,0 +1,87 @@
+/* Brand colors */
+
+:root {
+    --bs-nav-link-color: white;
+    --primary: red;
+    --bs-link-color: #2F363B;
+    --bs-black-rgb: 47, 54, 59;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #9C8462;
+    --bs-btn-border-color: #9C8462;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #ABB0B2;
+    --bs-btn-hover-border-color: #ABB0B2;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #E1CCB8;
+    --bs-btn-active-border-color: #E1CCB8;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #9C8462;
+    --bs-btn-disabled-border-color: #9C8462;
+}
+
+
+.bg-neigh-black {
+    background-color: #2F363B;
+}
+.bg-buckskin {
+background-color: #9C8462;
+}
+.bg-palomino {
+background-color: #E1CCB8;
+}
+.bg-chestnut {
+background-color: #5A1C0C;
+}
+
+.text-black {
+color: #2F363B;
+}
+.text-buckskin {
+color: #9C8462;
+}
+.text-palomino {
+color: #E1CCB8;
+}
+.text-chestnut {
+color: #5A1C0C;
+}
+
+.btn-primary {
+
+}
+  
+
+/* Fonts */
+h1, h2, h3, h4, h5 {
+    /* font-family: guyot-headline, sans-serif; */
+    font-family: modesto-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* input, p {
+    font-family: modesto-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+/* Sign-up form */
+
+#mc_embed_signup form{
+    margin: 0 !important;
+}
+
+
+
+
+#hero {
+    background:linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("images/horse-hero.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+}
